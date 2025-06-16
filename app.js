@@ -12,21 +12,23 @@ function typeWriter() {
 }
 
 const imageUrls = [
-    { url: './img/tecnologias/flask-light.svg', name: 'Flask' },
-    { url: './img/tecnologias/sqlite.svg', name: 'SQLite' },
-    { url: './img/tecnologias/mariadb.svg', name: 'MariaDB' },
-    { url: './img/tecnologias/tailwindcss.svg', name: 'Tailwind CSS' },
-    { url: './img/tecnologias/spring.svg', name: 'Spring Boot' },
-    { url: './img/tecnologias/vue.svg', name: 'Vue.js' },
-    { url: './img/tecnologias/mysql.svg', name: 'MySQL' },
+    { url: './img/tecnologias/python.svg', name: 'Python' },
     { url: './img/tecnologias/java.svg', name: 'Java' },
+    { url: './img/tecnologias/javascript.svg', name: 'JavaScript' },
     { url: './img/tecnologias/typescript.svg', name: 'TypeScript' },
-    { url: './img/tecnologias/bootstrap.svg', name: 'Bootstrap' },
+    { url: './img/tecnologias/csharp.svg', name: 'CSharp' },
+    { url: './img/tecnologias/flask-light.svg', name: 'Flask' },
+    { url: './img/tecnologias/spring.svg', name: 'Spring Boot' },
     { url: './img/tecnologias/react.svg', name: 'React' },
+    { url: './img/tecnologias/vue.svg', name: 'Vue.js' },
+    { url: './img/tecnologias/angular.svg', name: 'Angular' },
+    { url: './img/tecnologias/bootstrap.svg', name: 'Bootstrap' },
+    { url: './img/tecnologias/tailwindcss.svg', name: 'Tailwind CSS' },
     { url: './img/tecnologias/css.svg', name: 'CSS' },
     { url: './img/tecnologias/html5.svg', name: 'HTML5' },
-    { url: './img/tecnologias/javascript.svg', name: 'JavaScript' },
-    { url: './img/tecnologias/python.svg', name: 'Python' },
+    { url: './img/tecnologias/sqlite.svg', name: 'SQLite' },
+    { url: './img/tecnologias/mysql.svg', name: 'MySQL' },
+    { url: './img/tecnologias/mariadb.svg', name: 'MariaDB' },
 ];
 
 const slideshowImages = [
@@ -81,7 +83,7 @@ window.onload = function () {
     // Add slideshow functionality (basic)
     let currentIndex = 0;
     const slides = slideshowContainer.children;
-    
+
     function showSlide(index) {
         Array.from(slides).forEach((slide, i) => {
             slide.style.display = i === index ? 'block' : 'none';
